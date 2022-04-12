@@ -34,7 +34,7 @@ const cmd = require("node-cmd");
 const prefix = "$";
 const cooldown = new Set()
 const cdtime =5;
-client.login("NzkwNTg4MjI0NjgxOTM0OTA5.X-CyqQ._sZpfa4HKc2yyEf7QeLmR02nAY8");
+client.login("OTYzMTExNzA1MDY2NDc5Njc3.YlRVrA.vrKYWxmX74dSQCYBNCKYjcrKTe8");
 module.exports = async function(client) {
   try {
     const { body } = await request.get(require("../../config/bot").expressURL);
